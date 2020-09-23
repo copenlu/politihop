@@ -4,6 +4,16 @@ This repo contains the **PolitiHop** dataset introduced in the paper ["Multi-Hop
 
 In this project, we study how to perform more complex claim verification on naturally occurring claims with multiple hops over evidence chunks. We first construct a small annotated dataset, **PolitiHop**, of reasoning chains for claim verification. We then compare the dataset to other existing multi-hop datasets and study how to transfer knowledge from more extensive in- and out-of-domain resources to PolitiHop. We find that the task is complex, and achieve the best performance using an architecture that specifically models reasoning over evidence chains in combination with in-domain transfer learning.
 
+## Citation
+```bib
+@article{ostrowski2020multi,
+  title={Multi-Hop Fact Checking of Political Claims},
+  author={Ostrowski, Wojciech and Arora, Arnav and Atanasova, Pepa and Augenstein, Isabelle},
+  journal={arXiv preprint arXiv:2009.06401},
+  year={2020}
+}
+```
+
 ## Dataset format
 
 Each rown in the dataset splits represents one instance and contains the following tab-separated columns:
