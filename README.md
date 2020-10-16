@@ -20,7 +20,7 @@ In this project, we study how to perform more complex claim verification on natu
 
 ## Dataset format
 
-Each rown in the dataset splits represents one instance and contains the following tab-separated columns:
+Each row in the dataset splits represents one instance and contains the following tab-separated columns:
 
 - article_id - article id corresponding to the id of the claim in the LIAR dataset
 - statement	- the text of the claim
