@@ -25,11 +25,13 @@ Each rown in the dataset splits represents one instance and contains the followi
 - article_id - article id corresponding to the id of the claim in the LIAR dataset
 - statement	- the text of the claim
 - author - the author of the claim
-- ruling - a comma-separated list of the sentences in the long ruling report (this excludes sentences from the summary in the end)
-- url_sentences - a comma-separated list of the URLs ids as returned from the PolitiFact API
-- relevant_text_url_sentences	- the urls that are actually relevant to the selected evidence sentences
+- ruling - a comma-separated list of the sentences in the Politifact ruling report (this excludes sentences from the summary in the end)
+- url_sentences - a comma-separated list of ids of the sentences with a corresponding source url(s)
+- relevant_text_url_sentences	- a comma-separated list of ids of the sentences with a corresponding source url(s) that are actually relevant to the selected evidence sentences
 - politifact_label - label assigned to the claim by PolitiFact fact-checkiers
-- annotated_evidence - a json list of the evidence chains (keys) and the sentences that belong to the chain (value, which is a list of sentence ids from the ruling)
+- annotated_evidence - a json dict of the evidence chains (keys) and the sentences that belong to the chain (value, which is a list of sentence ids from the ruling)
 - annotated_label - label annotated by annotators of PolitiFact - True, False, Half-True
+- urls - a comma-separated list of source urls used in the corresponding PolitiFact article
+- annotated_urls - a json dict mapping sentence ids to the corresponding urls ids. One sentence can have multiple urls
 
 ## IN PROGRESS: The code for the experiments is currently being prepared!
