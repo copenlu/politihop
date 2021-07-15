@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: transformer-xh
+Version: 0.1
+Summary: learn representations of docs and users from the information point of view
+Home-page: https://github.com/microsoft/Transformer-XH
+Author: Chen Zhao, Chenyan Xiong, and Corby Rosset
+Author-email: Chenyan.Xiong@microsoft.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

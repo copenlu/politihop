@@ -1,0 +1,11 @@
+README.md
+setup.py
+transformer-xh/Evaluator.py
+transformer-xh/Trainer.py
+transformer-xh/main.py
+transformer-xh/utils.py
+transformer_xh.egg-info/PKG-INFO
+transformer_xh.egg-info/SOURCES.txt
+transformer_xh.egg-info/dependency_links.txt
+transformer_xh.egg-info/requires.txt
+transformer_xh.egg-info/top_level.txt

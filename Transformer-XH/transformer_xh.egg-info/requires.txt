@@ -1,0 +1,10 @@
+nltk
+numpy
+scipy
+sklearn
+torch
+torchsummary
+dgl
+tqdm
+pytorch_transformers<=1.0.0
+fuzzywuzzy
